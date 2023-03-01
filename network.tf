@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "example" {
   location = "australiacentral"
 }
 
-module "network-1" {
+module "network" {
   source              = "app.terraform.io/NTT-NPW-CHIP/network-1/azurerm"
   version             = "3.5.0"
   # insert required variables here
